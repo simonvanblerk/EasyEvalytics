@@ -1,8 +1,13 @@
 var easyEvalytics = (function(){
   var init = function() {
     $('[data-event]').each(function(){
-      $(this).on($(this).data('event'), function(e) {
-        ga('send', 'event', $(this).data('category'), $(this).data('action'), $(this).data('label'), $(this).data('value'));
+      var event = $(this).data('event');
+      $(this).on(event, function(e) {
+        var category = $(this).data('category');
+        var action = $(this).data('action');
+        var label = $(this).data('label');
+        var value = $(this).data('value');
+        ga('send', 'event', category, action, label, value);
       });
     });
   };

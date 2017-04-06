@@ -12,7 +12,7 @@
     "Event",
     "Tracking"
   ],
-  "license": "GPL 3",
+  "license": "GPLv3",
   "ignore": [
     "**/.*",
     "node_modules",
