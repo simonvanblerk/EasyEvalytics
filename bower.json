@@ -1,0 +1,26 @@
+{
+  "name": "easy-evalytics",
+  "homepage": "https://github.com/simonvanblerk/EasyEvalytics",
+  "authors": [
+    "simon@3stepweb.co.uk"
+  ],
+  "description": "A quick way to add google analytics event tracking to web pages.",
+  "main": "easy-evalytics.js",
+  "keywords": [
+    "Google",
+    "Analytics",
+    "Event",
+    "Tracking"
+  ],
+  "license": "GPL 3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
